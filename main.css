@@ -126,3 +126,11 @@ body{
     font-weight: 700;
     font-size: 28px;
 }
+.solution-div .solution-app{
+    margin-top: 10rem;
+}
+.solution-div .solution-app h1{
+    margin-left: 27.5rem;
+    font-size: 56px;
+    font-weight: 900;
+}
