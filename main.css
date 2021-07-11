@@ -1,0 +1,92 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ECF2FA !important;
+    color: #091841 !important; 
+    font-family: 'Poppins', sans-serif !important;
+    width: 100%;
+}
+.heading{
+    width: 100%;
+}
+.heading .header h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 6rem;
+    margin-left: 18.5rem;
+}
+.heading .header .header-btn{
+    padding: 20px;
+    background: #1E40C8;
+    color: #ECF2FA;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    margin-left: 32.5rem;
+}
+.heading .header .header-btn:hover{
+    transform:  translateY(-5px);
+}
+
+.heading  .img{
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+
+.quote-div{
+    width: 100%;
+    margin-top: 10rem;
+    display:flex;
+    margin-bottom: 10rem;
+}
+.quote-div .image img{
+    width: 400px;
+    height: 300px;
+}
+.quote-div .quote{
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+.quote-div .quote h2{
+    text-align: center;
+}
+.card-div{
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    margin-bottom: 10rem;
+}
+.card-div .card{
+    padding: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-div .card:hover{
+    color: #ECF2FA;
+    transform: translateY(-10px);
+    background-color: #091841;
+}
+.card-div .card .card-number{
+    color: #1E40C8;
+    font-weight: 900;
+}
+.card-div .card .card-content{
+    padding:20px;
+}
+.card-div .card .card-content h2{
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 48px;
+}
