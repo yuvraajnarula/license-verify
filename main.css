@@ -90,3 +90,39 @@ body{
     font-weight: 900;
     font-size: 48px;
 }
+.solution-div{
+    background-color: #091841;
+    color: #ECF2FA;
+}
+.solution-div .solution-head{
+    padding-top: 10rem;
+    margin-left: 7.5rem;
+    padding-bottom: 5rem;
+}
+.solution-div .solution-head h1{
+    font-size: 56px;
+    font-weight: 900;
+}
+.solution-div hr{
+     width: 25%;
+     height: 2px;
+     background-color: #6097E2;
+}
+.solution-div .solution-content{
+    margin-left:7.5rem;
+    margin-right: 7.5rem;
+}
+.solution-div .solution-content .solution-card{
+    padding-bottom: 10px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.solution-div .solution-content .solution-card i{
+    font-size: 24px;
+    margin-bottom: 2.5rem;
+}
+.solution-div .solution-content .solution-card h4{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 28px;
+}
