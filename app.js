@@ -18,3 +18,13 @@ btn_3.addEventListener('click',()=>{
     img_3.style.display = 'block';
     
 })
+const modal = document.querySelector('.video-modal');
+const close = document.querySelector('.fa-times');
+const modal_btn = document.querySelector('.header-btn');
+
+modal_btn.addEventListener('click', ()=>{
+    modal.style.display = 'block';
+})
+close.addEventListener('click',()=>{
+    modal.style.display='none';
+})
