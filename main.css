@@ -227,6 +227,27 @@ body{
     color: #6097E2;
     transform: translateY(-5px);
 }
+.solution-div .solution-app .col-sm-6:nth-child(2){
+    display: flex;
+}
+.solution-div .solution-app .sol-para{
+    transition: all 0.2s ease;
+    animation: sol 0.5s ease;
+    margin-top: 5rem;
+}
+.solution-div .solution-app .col-sm-6 .sol-para:not(.active-para){
+    display: none;
+}
+@keyframes sol {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .protection-div{
     margin-top: 10rem;
     margin-bottom: 10rem;
