@@ -229,7 +229,8 @@ body{
 .team-div .team-content .square{
     margin-top: 10rem;
     margin-left: 10rem;
-    background: transparent;
+    background: url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
     width: 250px;
     height: 250px;
     border-radius: 20px;
