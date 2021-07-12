@@ -11,6 +11,35 @@ body{
     font-family: 'Poppins', sans-serif !important;
     width: 100%;
 }
+.navbar{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 100%;
+}
+.navbar .navbar-ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar .navbar-ul li{
+    color: #707B88;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-right: 5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: inset 0 -5px 0 #234ae6;
+}
+.navbar .navbar-ul li:hover{
+    color: #ECF2FA;
+    transform: translateY(-2.5px);
+    box-shadow: inset 0 -100px 0 #091841;
+}
+.navbar .navbar-ul li:first-child{
+    margin-left: -50rem;
+}
 .heading{
     width: 100%;
 }
