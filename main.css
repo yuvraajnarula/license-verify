@@ -29,6 +29,8 @@ body{
     border-radius: 10px;
     transition: all 0.2s ease;
     margin-left: 32.5rem;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px 20px 60px #ffffff;
 }
 .heading .header .header-btn:hover{
     transform:  translateY(-5px);
@@ -212,4 +214,30 @@ body{
 .team-div .team-content .image-slider img:hover{
     transform: translateY(-5px);
     opacity: 1;
+}
+.footer-div  h1{
+    margin-top: 10rem;
+    margin-left: 20rem;
+    font-size: 64px;
+    font-weight: 900;
+}
+.footer-div .subscribe-btn{
+    padding: 20px;
+    background: #1E40C8;
+    color: #ECF2FA;
+    margin-top: 2rem;
+    border: none;
+    margin-left:20rem;
+    border-radius: 10px;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+    transition: all 0.2s ease;
+}
+.footer-div .subscribe-btn:hover{
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+.footer-div .row{
+    margin-top: 5rem;
+    background-color: #1E40C8;
 }
