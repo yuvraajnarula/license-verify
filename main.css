@@ -315,19 +315,22 @@ body{
     font-weight: 900;
     text-align: center;
 }
-.protection-div .protection-content img{
+.protection-div .protection-content .imgcard-img{
     width: 50%;
     border-radius: 20px;
     height: 500;
     margin-top:-10rem;
     margin-left: 27.5rem;
     z-index: -1;
+    width: 750px;
+    height:450px;
+    background : url("https://images.pexels.com/photos/2705755/pexels-photo-2705755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" );
     background-size: cover;
     position: absolute;
 }
 .team-div{
     margin-top: 25rem;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
 }
 .team-div h1{
     margin-top: 15rem;
@@ -350,6 +353,17 @@ body{
     border-radius: 20px;
     box-shadow:  20px 20px 60px #bebebe,
     20px 20px 60px #ffffff;
+}
+.team-div .team-content .square-alpha{
+    margin-top: -20rem;
+    margin-left: -0.5rem;
+    width:150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+    background: url('https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
 }
 .team-div .team-content .image-container{
     margin-top: .5rem;
