@@ -287,7 +287,7 @@ body{
 }
 .protection-div .protection-content .image-card{
     width: 250px;
-    height: 300px;
+    height: 250px;
     margin-left: 25rem;
     border-radius: 20px;
     background:#ECF2FA;
@@ -298,19 +298,19 @@ body{
 }
 .protection-div .protection-content .image-card i{
     font-size: 44px;
-    margin-left:8.5rem;
-    margin-top: 4.5rem;
+    margin-left:6.5rem;
+    margin-top: 2.5rem;
 }   
 .protection-div .protection-content .image-card h1{
-    margin-left: 8.5rem;
-    margin-top: 4.5rem;
+    margin-left: 6.5rem;
+    margin-top: 2.5rem;
     font-size: 34px;
     font-weight: 900;
     color:#1E40C8;
 }
 .protection-div .protection-content .image-card h4{
     font-size: 18px;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     font-weight: 900;
     text-align: center;
 }
