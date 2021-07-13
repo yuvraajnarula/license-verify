@@ -84,5 +84,9 @@ sol3.addEventListener('click', ()=>{
     sol1.style.color = '#ECF2FA';
     sol2.style.color = '#ECF2FA';
 })
+//mobile-nav
+const mobile_nav = document.querySelector('.mobile-nav');
+const [line1,line2,line3] = [document.querySelector('.line-1'), document.querySelector('.line-2'),document.querySelector('.line-3')];
+
 //^^^ have to create card slider using slider/glider js
 //gsap
