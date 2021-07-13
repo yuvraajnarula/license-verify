@@ -101,7 +101,7 @@ body{
     animation: modal-animation 0.5s ease;
     z-index: 100;
     margin-top: -20rem;
-    margin-left: 19.5rem;
+    margin-left: 22.5rem;
     background: #ECF2FA;
     position: fixed;
     display: none;
@@ -135,10 +135,12 @@ body{
     margin-top: 10rem;
     display:flex;
     margin-bottom: 10rem;
+    margin-left: 10rem;
 }
 .quote-div .image img{
     width: 400px;
     height: 300px;
+
 }
 .quote-div .quote{
     margin-top: 10rem;
@@ -225,7 +227,7 @@ body{
     margin-top: 10rem;
 }
 .solution-div .solution-app h1{
-    margin-left: 27.5rem;
+    margin-left: 32.5rem;
     font-size: 56px;
     font-weight: 900;
 }
@@ -278,16 +280,16 @@ body{
 .protection-div h1{
     font-size: 56px;
     font-weight: 900;
-    margin-left: 15rem;
+    margin-left: 20rem;
 }
 .protection-div .protection-content p{
     margin-top: 2.5rem;
-    margin-left: 47.5rem;
+    margin-left: 50rem;
 }
 .protection-div .protection-content .image-card{
     width: 250px;
     height: 300px;
-    margin-left: 17.5rem;
+    margin-left: 20rem;
     border-radius: 20px;
     background:#ECF2FA;
     box-shadow: 9px 13px 19px 2px rgba(0,0,0,0.37);
@@ -297,19 +299,19 @@ body{
 }
 .protection-div .protection-content .image-card i{
     font-size: 44px;
-    margin-left: 6.5rem;
-    margin-top: 2.5rem;
+    margin-left:8.5rem;
+    margin-top: 4.5rem;
 }   
 .protection-div .protection-content .image-card h1{
-    margin-left: 6rem;
-    margin-top: 2.5rem;
+    margin-left: 8.5rem;
+    margin-top: 4.5rem;
     font-size: 34px;
     font-weight: 900;
     color:#1E40C8;
 }
 .protection-div .protection-content .image-card h4{
     font-size: 18px;
-    margin-top: 3.5rem;
+    margin-top: 5rem;
     font-weight: 900;
     text-align: center;
 }
@@ -317,8 +319,8 @@ body{
     width: 50%;
     border-radius: 20px;
     height: 500;
-    margin-top:-7.5rem;
-    margin-left: 25rem;
+    margin-top:-10rem;
+    margin-left: 27.5rem;
     z-index: -1;
     position: absolute;
 }
