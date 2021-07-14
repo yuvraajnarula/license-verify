@@ -91,6 +91,7 @@ body{
     float: right;
     margin-right: 5rem;
     font-size: 30px;
+    cursor: pointer;
 }
 .overflow ul{
     margin-top: 12.5rem;
