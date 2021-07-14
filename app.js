@@ -1,4 +1,5 @@
-//image Slider
+//card Slider
+
 //^^^ have to create image slider using slider/glider js
 //image btn preview
 const [img_1, img_2, img_3] = [document.querySelector('#img-1'), document.querySelector('#img-2'), document.querySelector('#img-3')];
@@ -47,7 +48,7 @@ btn_3.addEventListener('click',()=>{
 })
 //video popup
 const modal = document.querySelector('.video-modal');
-const close = document.querySelector('.fa-times');
+const close = document.querySelector('.video-close');
 const modal_btn = document.querySelector('.header-btn');
 
 modal_btn.addEventListener('click', ()=>{
