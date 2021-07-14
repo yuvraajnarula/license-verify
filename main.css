@@ -182,25 +182,70 @@ body{
 .quote-div{
     width: 100%;
     margin-top: 10rem;
-    display:flex;
     margin-left:10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 20rem;
 }
-.quote-div .image img{
-    width: 400px;
-    height: 300px;
-    margin-left: 10rem;
-}
+
 .quote-div .quote{
-    margin-top: 10rem;
-    margin-left: 15rem;
+    margin-top: 7.5rem;
+    margin-left: -20rem;
 }
 .quote-div .quote h2{
+    font-size: 44px;
     text-align: center;
+    font-weight:600;
+}
+.square-quote-1,
+.square-quote-2,
+.square-quote-3,
+.square-quote-4,
+.square-quote-5,
+.square-quote-6{
+    background-color: #091841;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+    position: absolute;
+}
+.square-quote-1{
+    width:250px;
+    height: 200px;
+    margin-top:-5rem;
+    margin-left: -5rem;
+}
+.square-quote-2 {
+    width: 450px;
+    height: 250px;
+    margin-left: 47.5rem;
+    margin-top: -10rem;
+}
+.square-quote-3{
+    width: 125px; 
+    height: 125px;
+    margin-top: -7.5rem;
+    margin-left: 2.5rem;
+}
+.square-quote-4{
+    margin-left: 45rem;
+    margin-top: 5rem;
+    width: 250px;
+    height: 125px;
+}
+.square-quote-5{
+    margin-left:58.5rem;
+    margin-top: -5rem;
+    width: 100px;
+    height: 100px;
+}
+.square-quote-6{
+    width: 450px;
+    height: 175px;
+    margin-top:5.5rem;
 }
 .card-div{
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 17.5rem;
     display: flex;
     margin-bottom: 10rem;
 }
