@@ -64,7 +64,54 @@ body{
 .mobile-nav .mobile-nav-line:nth-child(2){
     margin:0.5rem 0;
 }
+.mobile-nav-line .line-1 .active-line-1{
+    transform: rotate(45deg) translateY(10px);
+}
+.mobile-nav-line .line-2 .active-line-2{
+    opacity: 0;
+}
+.mobile-nav-line .line-3 .active-line-3{
+    transform: rotate(-45deg) translateY(-10px);
+}
+.overflow{
+    display:block;
+    width: 0%;
+    height: 150vh;
+    margin-top: -10rem;
+    padding:10px;
+    background-color: #091841;
+    color: #ECF2FA;
+    z-index: 1001;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: all 0.2s ease;
+}
+.overflow i{
+    margin-top: 5rem;
+    float: right;
+    margin-right: 5rem;
+    font-size: 30px;
+}
+.overflow ul{
+    margin-top: 12.5rem;
+    margin-left: 2.5rem;
+    list-style-type: none;
+    font-size: 64px;
+}
+.overflow ul li{
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    overflow: hidden;;
+    margin-left: 25rem;
+}
 
+.overflow ul li:hover{
+    color: #234ae6;
+    letter-spacing: 3px;
+}
 .heading{
     width: 100%;
 }
