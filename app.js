@@ -86,7 +86,12 @@ sol3.addEventListener('click', ()=>{
 })
 //mobile-nav
 const mobile_nav = document.querySelector('.mobile-nav');
+const nav_ul = document.querySelector('.navbar-ul');
 const [line1,line2,line3] = [document.querySelector('.line-1'), document.querySelector('.line-2'),document.querySelector('.line-3')];
-
+mobile_nav.addEventListener('click',()=>{
+    line1.style.transform = 'rotate(45deg) translateX(10px) translateY(10px)';
+    line2.style.opacity = '0';
+    line3.style.transform = 'rotate(-45deg)  translateY(-5px) translateX(5px)';
+})
 //^^^ have to create card slider using slider/glider js
 //gsap
