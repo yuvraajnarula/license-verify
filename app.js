@@ -103,6 +103,6 @@ nav_close.addEventListener('click', ()=>{
     mobile_nav.style.opacity = 1;
 })
 
-
+// image animations
 //^^^ have to create card slider using slider/glider js
 //gsap
