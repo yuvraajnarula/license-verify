@@ -264,8 +264,10 @@ body{
     padding-left: 5rem;
 }
 
-.slick-arrow{
-    display: none;
+.card-div button{
+    background-color: transparent;
+    color: #ECF2FA;
+    border:none;
 }
 .card-div .card{
     margin-top: 5rem;
