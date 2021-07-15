@@ -213,16 +213,22 @@ body{
     height: 200px;
     margin-top:-5rem;
     margin-left: -5rem;
+    background: url('https://images.pexels.com/photos/1116984/pexels-photo-1116984.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
 }
 .square-quote-2 {
     width: 450px;
     height: 250px;
+    background: url('https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
     margin-left: 47.5rem;
     margin-top: -10rem;
 }
 .square-quote-3{
     width: 125px; 
     height: 125px;
+    background: url('https://images.pexels.com/photos/907526/pexels-photo-907526.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
     margin-top: -7.5rem;
     margin-left: 2.5rem;
 }
@@ -230,17 +236,23 @@ body{
     margin-left: 45rem;
     margin-top: 5rem;
     width: 250px;
+    background: url('https://images.pexels.com/photos/1119152/pexels-photo-1119152.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
     height: 125px;
 }
 .square-quote-5{
     margin-left:58.5rem;
     margin-top: -5rem;
     width: 100px;
+    background: url('https://images.pexels.com/photos/1901388/pexels-photo-1901388.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
     height: 100px;
 }
 .square-quote-6{
-    width: 450px;
-    height: 175px;
+    width: 425px;
+    height: 200px;
+    background: url('https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
     margin-top:5.5rem;
 }
 .card-div{
