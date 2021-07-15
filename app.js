@@ -3,6 +3,7 @@ $('.card-div').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,

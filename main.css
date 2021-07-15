@@ -263,7 +263,8 @@ body{
     margin-bottom: 10rem;
     padding-left: 5rem;
 }
-.card-div button{
+
+.slick-arrow{
     display: none;
 }
 .card-div .card{
