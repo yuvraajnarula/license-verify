@@ -1,6 +1,3 @@
-//card Slider
-
-//^^^ have to create image slider using slider/glider js
 //image btn preview
 const [img_1, img_2, img_3] = [document.querySelector('#img-1'), document.querySelector('#img-2'), document.querySelector('#img-3')];
 const [btn_1, btn_2, btn_3] = [document.querySelector('#btn-1'), document.querySelector('#btn-2'), document.querySelector('#btn-3')];

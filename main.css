@@ -10,6 +10,7 @@ body{
     color: #091841 !important; 
     font-family: 'Poppins', sans-serif !important;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -257,9 +258,10 @@ body{
 }
 .card-div{
     width: 100%;
-    margin-top: 17.5rem;
+    padding-top: 17.5rem;
     display: flex;
     margin-bottom: 10rem;
+    overflow-x: scroll;
 }
 .card-div .card{
     padding: 20px;
@@ -288,6 +290,17 @@ body{
     padding-top: 10px;
     font-weight: 900;
     font-size: 48px;
+}
+.card-div-arrow{
+    display: flex;
+    margin-left: 70rem;
+}
+.fa-chevron-left,.fa-chevron-right{
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
 }
 .solution-div{
     background-color: #091841;
