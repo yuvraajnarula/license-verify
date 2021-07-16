@@ -76,6 +76,7 @@ body{
     cursor:pointer;
     width:35px;
     height:30px;
+    display:  none;
 }
 .mobile-nav .mobile-nav-line{
     width:100%;
