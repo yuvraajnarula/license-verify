@@ -87,6 +87,7 @@ modal_btn.addEventListener('click', ()=>{
 close.addEventListener('click',()=>{
     modal.style.display='none';
 })
+
 //solution tabs
 const [para1, para2, para3] =[ document.querySelector('#para1'), document.querySelector('#para2'), document.querySelector('#para3')];
 const [sol1 , sol2 , sol3 ] = [ document.querySelector('#sol1'), document.querySelector('#sol2'), document.querySelector('#sol3')];
@@ -135,4 +136,12 @@ nav_close.addEventListener('click', ()=>{
 })
 
 // subscribe modal
+const [subscribe, subscribe_close,form_subscribe] = [document.querySelector('.subscribe-btn'),document.querySelector('.subscribe-close'),document.querySelector('.form-modal')];
+subscribe.addEventListener('click',()=>{
+  form_subscribe.style.display = 'block';
+})
+subscribe_close.addEventListener('click',()=>{
+  form_subscribe.style.display = 'none';
+})
+
 //gsap
