@@ -136,12 +136,11 @@ nav_close.addEventListener('click', ()=>{
 })
 
 // subscribe modal
-const [subscribe, subscribe_close,form_subscribe] = [document.querySelector('.subscribe-btn'),document.querySelector('.subscribe-close'),document.querySelector('.form-modal')];
-subscribe.addEventListener('click',()=>{
-  form_subscribe.style.display = 'block';
+const [subscribe, subscribe_btn, subscribe_close ] = [document.querySelector('.subscribe-modal'),document.querySelector('.subscribe-btn'),document.querySelector('.subs-close')];
+
+subscribe_btn.addEventListener('click',()=>{
+  subscribe.style.display = 'block';
 })
 subscribe_close.addEventListener('click',()=>{
-  form_subscribe.style.display = 'none';
+  subscribe.style.display ='none';
 })
-
-//gsap

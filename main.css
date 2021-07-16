@@ -66,6 +66,9 @@ body{
 .navbar .navbar-ul li:first-child{
     margin-left: -55rem;
 }
+.navbar img{
+    border-radius: 100%;
+}
 .mobile-nav{
     width:35px;
     position:absolute;
@@ -109,6 +112,9 @@ body{
     position: fixed;
     transform: translateX(-100%);
     transition: all 0.2s ease;
+}
+.overflow img{
+    border-radius: 50px;
 }
 .overflow i{
     margin-top: 5rem;
@@ -177,7 +183,8 @@ body{
     border-radius: 20px;
     padding: 20px;
     box-shadow: 9px 13px 19px 2px rgba(0,0,0,0.37);
-    animation: modal-animation 0.5s ease;
+    animation: modal-animation 0.5s 1;
+    animation-fill-mode: forwards;
     z-index: 100;
     margin-top: -20rem;
     margin-left: 20rem;
@@ -595,17 +602,17 @@ body{
     margin-right: 10rem;
 }
 .footer-div .row .square1{
-    width: 200px;
-    height: 200px;
-    background: transparent;
+    width: 100px;
+    height: 100px;
+    background: url('./assets/logo-sq.jpg');
+    background-size: cover;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 20px 20px 60px #1a36aa,
     -20px -20px 60px #234ae6;
-    margin-top: -2rem;
 }
 .footer-div .row .footer-ul{
-    margin-left: 18.5rem;
+    margin-left: 22.5rem;
 }
 .footer-div .row .label-ul{
     list-style-type: none;
@@ -617,84 +624,60 @@ body{
 .footer-div .row .label-ul li, .footer-div .row .info-ul li{
     margin-bottom: 20px;
 }
-.form-modal{
+.subscribe-modal{
+    height: 40vh;
+    width: 72.5vh;
+    padding: 10px;
+    border-radius: 20px;
+    background: #091841;
+    color: #ECF2FA;
+     box-shadow: 20px 20px 60px #1a36aa,
+    -20px -20px 60px #234ae6;
+    margin-top: -20rem;
+    margin-left: 22.5rem;
+    z-index: 1000;
     position: absolute;
-    margin-top: -57.5vh;
-    justify-content: center;
-    align-items: center;
+    animation: subscribe 0.5s ease;
     display: none;
-  }
-  .modal-content{
-    border-radius: 10px;
-    width: 500px !important;
-    margin-left: 27.5rem;
-    margin-top:10rem;
-    background: #091841 !important;
-    color: #ECF2FA !important;
-    padding: 20px;
-    animation: visible 1s 1;
-    animation-fill-mode: forwards;
-  }
-  @keyframes visible{
+}
+@keyframes subscribe{
     from{
-      transform: scale(0);
-      opacity: 0;
+        opacity: 0;
+        transform: scale(0);
     }
     to{
-      transform: scale(1);
-      opacity: 1;
+        opacity:  1;
+        transform: scale(1) rotate(360deg);
     }
-  }
-  .content-wrapper{
-    opacity: 0;
-    animation: toRight 1s 500ms 1;
-    animation-fill-mode: forwards;
-  }
-  @keyframes toRight{
-    from{
-      opacity: 0;
-      transform: translateX(-100px);
-    }
-    to{
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  .subscribe-close{
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 30px;
-    transform: rotate(45deg);
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-  .close:hover{
-    transform: scale(1.4) rotate(-45deg); 
-  }
-  .form-modal label{
-    margin-top: 4rem;
-    margin-left: 20px;  
-  }
-  .form-modal input{
+}
+
+.subscribe-modal .subscribe-content{
+    padding:10px;
+}
+.subscribe-modal i{
     margin-top: 20px;
     margin-left: 20px;
-    width: 60%;
-    display: block;
-    padding: 10px;
-    outline: none;
-    background: transparent;
-    color: #ffffff;
+    cursor: pointer;
+}
+.subscribe-modal .subscribe-content {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.subscribe-modal .subscribe-content button{
+    margin-top: 10px;
+    border:none;
+    border-radius: 10px;
+    background: #6097E2;
+    padding:5px;
+    width: 10vh;
+}
+.subscribe-modal .subscribe-content input{
+    background: transparent !important;
+    color: #ECF2FA !important;
     border-top: none;
     border-left: none;
-    border-right:none;
-    color: #ECF2FA !important;
-    border-bottom: 2px solid #6097E2;
+    border-right: none;
+    border-bottom: 2px solid #6097E2; 
+    margin-top: 10px !important;
+    width: 85% !important;
 }
-  .submit{
-    display: block;
-    margin-top: 30px;
-    margin-left: 20px;
-    color: #ECF2FA !important;
-    background : #1E40C8 !important;
-  }
