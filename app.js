@@ -144,3 +144,24 @@ subscribe_btn.addEventListener('click',()=>{
 subscribe_close.addEventListener('click',()=>{
   subscribe.style.display ='none';
 })
+//email
+function  email_send(name, email){
+  name = $('.name-input').val();
+  email = $('.email-input').val(); 
+  Email.send({
+    SecureToken : "4cb2dafc-5aa5-4147-8305-45d079587262 ",
+    To :  `${email}`,
+    From : "ynarula678@gmail.com",
+    Subject : "Thanks for subscribing",
+    Body : `Dear ${name}, <br> Thanks for subscribing! We will be sending updates every weekend`
+    }).then(
+    message =>{
+      if(message){
+        alert('Your mail has been send. Thank you for connecting.');
+      }
+      else{
+        alert('Error sending. Please try again later');
+      }
+    }
+  );
+}

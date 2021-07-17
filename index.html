@@ -90,7 +90,7 @@
         <div class="square-quote-5"></div>
         <div class="square-quote-6"></div>
     </div>
-    <div class="card-div">
+    <div class="card-div row">
        <div class="col-sm-3">
                 <div class="card">
                     <div class="card-number">
@@ -234,7 +234,8 @@
                 <b id='about'>Our Idea</b>
                 <hr>
             </div>
-            <div class="solution-content row">
+            <div class="solution-content">
+            <div class="row">
                 <div class="col-sm-4">
                     <div class="solution-card">
                         <i class="fa fa-car-crash"></i>
@@ -263,6 +264,7 @@
                     </div>
                 </div>
             </div>
+             </div>
             <div class="solution-app">
                 <h1>How it Works?</h1>
                 <div class="row sol-content">
@@ -351,9 +353,11 @@
         <div class="subscribe-modal">
             <i class="fa fa-times subs-close"></i>
             <div class="subscribe-content">
-                <form action="">
+                <form action="javascript:email_send()">
+                    <label >Enter your Name</label><br>
+                    <input type="text" class="form-control name-input" ><br>
                     <label >Enter your mail</label><br>
-                    <input type="text" class="form-control" ><br>
+                    <input type="text" class="form-control email-input" ><br>
                     <button>Submit</button>
                 </form>
             </div>
@@ -400,7 +404,7 @@
 <!--JS-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="app.js"></script>
 </html>
