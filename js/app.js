@@ -76,39 +76,28 @@ btn_3.addEventListener('click',()=>{
     }
     
 })
-//video popup
-const modal = document.querySelector('.video-modal');
-const close = document.querySelector('.video-close');
-const modal_btn = document.querySelector('.header-btn');
-
-modal_btn.addEventListener('click', ()=>{
-    modal.style.display = 'block';
-})
-close.addEventListener('click',()=>{
-    modal.style.display='none';
-})
 
 //mobile-nav
-const mobile_nav = document.querySelector('.mobile-nav');
-const nav_ul = document.querySelector('.navbar-ul');
-const overflow = document.querySelector('.overflow'); 
+//const mobile_nav = document.querySelector('.mobile-nav');
+//const nav_ul = document.querySelector('.navbar-ul');
+//const overflow = document.querySelector('.overflow'); 
 
-mobile_nav.addEventListener('click', ()=>{
-    overflow.style.transform = 'translateX(0)';
-    overflow.style.width = '100%';
-    mobile_nav.style.opacity = 0;
-})
+//mobile_nav.addEventListener('click', ()=>{
+  //  overflow.style.transform = 'translateX(0)';
+  //  overflow.style.width = '100%';
+  //  mobile_nav.style.opacity = 0;
+//})
 
-const nav_close = document.querySelector('.overflow-x');
+//const nav_close = document.querySelector('.overflow-x');
 
-nav_close.addEventListener('click', ()=>{
-    overflow.style.transform = 'translateX(-100%)';
-    overflow.style.width = '0%';
-    mobile_nav.style.opacity = 1;
-})
+//nav_close.addEventListener('click', ()=>{
+ //   overflow.style.transform = 'translateX(-100%)';
+ //   overflow.style.width = '0%';
+ //   mobile_nav.style.opacity = 1;
+//})
 
 // subscribe modal
-const [subscribe, subscribe_btn, subscribe_close ] = [document.querySelector('.subscribe-modal'),document.querySelector('.subscribe-btn'),document.querySelector('.subs-close')];
+const [subscribe, subscribe_btn, subscribe_close ] = [document.querySelector('.subscribe-modal'),document.querySelector('.header-btn'),document.querySelector('.subs-close')];
 
 subscribe_btn.addEventListener('click',()=>{
   subscribe.style.display = 'block';
@@ -117,11 +106,14 @@ subscribe_close.addEventListener('click',()=>{
   subscribe.style.display ='none';
 })
 //email
+document.querySelector('.email-btn').addEventListener('click',()=>{
+  email_send();
+});
 function  email_send(name, email){
   name = $('.name-input').val();
   email = $('.email-input').val(); 
   Email.send({
-    SecureToken : "4cb2dafc-5aa5-4147-8305-45d079587262 ",
+    SecureToken : "4cb2dafc-5aa5-4147-8305-45d079587262",
     To :  `${email}`,
     From : "ynarula678@gmail.com",
     Subject : "Thanks for subscribing",

@@ -343,9 +343,7 @@ body{
     border-radius: 20px;
     background: #091841;
     color: #ECF2FA;
-     box-shadow: 20px 20px 60px #1a36aa,
-    -20px -20px 60px #234ae6;
-    margin-top: -20rem;
+    margin-top: -15rem;
     margin-left: 22.5rem;
     z-index: 1000;
     position: absolute;
@@ -380,8 +378,13 @@ body{
     border:none;
     border-radius: 10px;
     background: #6097E2;
-    padding:5px;
-    width: 10vh;
+    padding:10px;
+    width: 15vh;
+}
+.subscribe-modal .subscribe-content label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
 }
 .subscribe-modal .subscribe-content input{
     background: transparent !important;
@@ -391,5 +394,6 @@ body{
     border-right: none;
     border-bottom: 2px solid #6097E2; 
     margin-top: 10px !important;
+    margin-bottom: 20px !important;
     width: 85% !important;
 }
