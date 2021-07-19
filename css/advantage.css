@@ -29,7 +29,7 @@ body{
 									   color-stop(0.86, rgb(28,58,148)));
 }
 .protection-div{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .protection-div h1{
     font-size: 56px;
@@ -81,9 +81,19 @@ body{
     background-size: cover;
     position: absolute;
 }
-.advantage-card{
+.advantage-div{
     height: 100vh;
     background-color: #091841;
     color: #ECF2FA;
     width: 100%;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+.advantage-div h1{
+    padding-top: 7.5rem;
+    font-size: 56px;
+    font-weight: 700;
+}
+.advantage-div .row{
+    margin-top: 12.5rem;
 }
