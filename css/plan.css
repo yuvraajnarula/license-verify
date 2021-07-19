@@ -28,3 +28,91 @@ body{
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
+.plan-div{
+    background: #091841;
+    color :#ECF2FA;
+    height: 150vh;
+}
+.plan-div h1{
+    padding-top: 5rem;
+    margin-left: 10rem;
+    font-size: 56px;
+    font-weight: 800;
+}
+.plan-div .col-sm-6{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 2.5rem;
+}
+.square-card-1,
+.square-card-2{
+    background-color: #ECF2FA;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    z-index: 10;
+}
+.square-card-1{
+    margin-left: 20rem;
+    margin-top: 5rem;
+    box-shadow:  10px 10px rgba(0,0,0);
+}
+.square-card-2{
+    margin-left: 52.5rem;
+    margin-top: 25rem;
+    box-shadow:  -10px -10px rgba(0,0,0);
+}
+.plan-div .square-bg{
+    margin-top: 10rem;
+    margin-left: 25rem;
+    position: absolute;
+    width: 40%;
+    height: 50vh;
+    border-radius: 20px;
+    background: url('https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.buisness-cards{
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+.buisness-cards h1{
+    font-size: 56px;
+    font-weight: 800;
+    margin-left: 10rem;
+}
+.buisness-cards hr{
+    width: 30%;
+    margin-left: 10rem;
+}
+.buisness-cards .row{
+    margin-top:5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.buisness-cards .row .col-sm-4 .card{
+    background: transparent;
+    border:none;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+    margin-right: 10px;
+}
+.buisness-cards .row .col-sm-4 .card h3{
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+.buisness-cards .row .col-sm-4 .card p{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.buisness-cards .row .col-sm-4 .card hr{
+    width: 50%;
+    margin-left: 6rem;
+}
