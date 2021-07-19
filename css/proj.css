@@ -76,3 +76,37 @@ body{
     margin-bottom: 5px;
     font-size: 25px;
 }
+.footer-div{
+    background-color: #1E40C8;
+    color: #ECF2FA;
+    padding-top:5rem;
+    padding-bottom: 5rem;
+}
+.footer-div .row{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.footer-div .row .square1{
+    width: 100px;
+    height: 100px;
+    background: url('/assets/logo-sq.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #1a36aa,
+    -20px -20px 60px #234ae6;
+}
+.footer-div .row .footer-ul{
+    margin-left: 22.5rem;
+}
+.footer-div .row .label-ul{
+    list-style-type: none;
+    font-weight: 600;
+}
+.footer-div .row .info-ul{
+    list-style-type: none;
+}
+.footer-div .row .label-ul li, .footer-div .row .info-ul li{
+    margin-bottom: 20px;
+}
