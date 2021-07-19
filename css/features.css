@@ -31,8 +31,7 @@ body{
 .solution-app{
     background: #091841;
     color: #ECF2FA;
-    height: 100vh;
-    margin-top: 10rem;
+    padding-top: 5rem;
 }
 .solution-app h1{
     margin-left: 35%;
@@ -80,4 +79,15 @@ body{
         opacity: 1;
         transform: translateX(0);
     }
+}
+.feature-app{
+    margin-top: 10rem;
+}
+.feature-app h2{
+    margin-left:15rem;
+    font-size: 34px;
+    font-weight: 700;
+}
+.feature-lightbox{
+    margin-top: 10rem;
 }
