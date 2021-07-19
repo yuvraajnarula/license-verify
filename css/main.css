@@ -46,7 +46,7 @@ body{
 .navbar .navbar-ul li{
     letter-spacing: 2px;
     font-weight: 900;
-    margin-right: 3.5rem;
+    margin-right: 1.5rem;
     letter-spacing: 2px;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -64,7 +64,7 @@ body{
     color: #ECF2FA;
 }
 .navbar .navbar-ul li:first-child{
-    margin-left: -55rem;
+    margin-left: -5rem;
 }
 .navbar img{
     border-radius: 100%;
@@ -88,65 +88,6 @@ body{
     position:relative;
     transition:1s ease;
 }
-.mobile-nav .mobile-nav-line:nth-child(2){
-    margin:0.5rem 0;
-}
-.mobile-nav-line .line-1 .active-line-1{
-    transform: rotate(45deg) translateY(10px);
-}
-.mobile-nav-line .line-2 .active-line-2{
-    opacity: 0;
-}
-.mobile-nav-line .line-3 .active-line-3{
-    transform: rotate(-45deg) translateY(-10px);
-}
-.overflow{
-    display:block;
-    width: 0%;
-    height: 150vh;
-    margin-top: -10rem;
-    padding:10px;
-    background-color: #091841;
-    color: #ECF2FA;
-    z-index: 1001;
-    position: fixed;
-    transform: translateX(-100%);
-    transition: all 0.2s ease;
-}
-.overflow img{
-    border-radius: 50px;
-}
-.overflow i{
-    margin-top: 5rem;
-    float: right;
-    margin-right: 5rem;
-    font-size: 30px;
-    cursor: pointer;
-}
-.overflow ul{
-    margin-top: 12.5rem;
-    margin-left: 2.5rem;
-    list-style-type: none;
-    font-size: 64px;
-}
-.overflow ul li{
-    margin-top: 25px;
-    cursor: pointer;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    overflow: hidden;;
-    margin-left: 25rem;
-}
-
-.overflow ul li a:hover{
-    color: #234ae6;
-    letter-spacing: 3px;
-}
-.overflow ul li a{
-    text-decoration: none;
-    color: #ECF2FA;
-    transition: all 0.5s ease;
-}
 .heading{
     width: 100%;
 }
@@ -154,8 +95,8 @@ body{
     font-size: 48px;
     font-weight: 900;
     margin-top: 6rem;
-    left: 27.5%;
-    transform: translateX(27.5%);
+    left: 17.5%;
+    transform: translateX(17.5%);
 }
 .heading .header .header-btn{
     padding: 20px;
@@ -371,6 +312,7 @@ body{
 .solution-div .solution-content{
     margin-left:7.5rem;
     margin-right: 7.5rem;
+    margin-bottom: 5rem;
 }
 .solution-div .solution-content .solution-card{
     padding-bottom: 10px;
@@ -386,116 +328,12 @@ body{
     font-weight: 700;
     font-size: 28px;
 }
-.solution-div .solution-app{
-    margin-top: 10rem;
-}
-.solution-div .solution-app h1{
-    margin-left: 35%;
-    font-size: 56px;
-    font-weight: 900;
-}
-.solution-div .sol-content{
-    margin-top: 5rem;
-}
-.solution-div .solution-app .sol-btns-list{
-    list-style-type: none;
-    margin-left: 15rem;
-}
-.solution-div .solution-app .sol-btns-list .sol-btn{
-    background: transparent;
-    border: none;
-    padding: 15px;
-    margin-top: 15px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #ECF2FA;
-    transition: all 0.2s ease;
-}
-.solution-div .solution-app .sol-btns-list .sol-btn:hover{
-    color: #6097E2;
-    transform: translateY(-5px);
-}
-.solution-div .solution-app .col-sm-6:nth-child(2){
-    display: flex;
-}
-.solution-div .solution-app .sol-para{
-    transition: all 0.2s ease;
-    animation: sol 0.5s ease;
-    margin-top: 5rem;
-}
-.solution-div .solution-app .col-sm-6 .sol-para:not(.active-para){
-    display: none;
-}
-@keyframes sol {
-    from{
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-.protection-div{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-.protection-div h1{
-    font-size: 56px;
-    font-weight: 900;
-    margin-left: 25rem;
-}
-.protection-div .protection-content p{
-    margin-top: 2.5rem;
-    margin-left: 55rem;
-}
-.protection-div .protection-content .image-card{
-    width: 250px;
-    height: 250px;
-    margin-left: 25rem;
-    border-radius: 20px;
-    background:#ECF2FA;
-    box-shadow: 9px 13px 19px 2px rgba(0,0,0,0.37);
-    z-index: 2;
-    padding-top:5px;
-}
-.protection-div .protection-content .image-card i{
-    font-size: 44px;
-    margin-left:6.5rem;
-    margin-top: 1.5rem;
-}   
-.protection-div .protection-content .image-card h1{
-    margin-left: 6.5rem;
-    margin-top: 2.5rem;
-    font-size: 34px;
-    font-weight: 900;
-    color:#1E40C8;
-}
-.protection-div .protection-content .image-card h4{
-    font-size: 18px;
-    margin-top: 1.5rem;
-    font-weight: 900;
-    text-align: center;
-}
-.protection-div .protection-content .imgcard-img{
-    width: 50%;
-    border-radius: 20px;
-    height: 500;
-    margin-top:-10rem;
-    margin-left: 27.5rem;
-    z-index: -1;
-    width: 750px;
-    height:450px;
-    background : url("https://images.pexels.com/photos/2705755/pexels-photo-2705755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" );
-    background-size: cover;
-    position: absolute;
-}
 .team-div{
-    margin-top: 25rem;
+    margin-top: 5rem;
     margin-bottom: 15rem;
 }
 .team-div h1{
-    margin-top: 15rem;
+    margin-top: 10rem;
     margin-left: 20rem;
     font-size: 56px;
     font-weight: 900;
@@ -571,40 +409,18 @@ body{
 .footer-div{
     background-color: #1E40C8;
     color: #ECF2FA;
-    padding-top:1rem;
+    padding-top:5rem;
     padding-bottom: 5rem;
 }
-.footer-div  h1{
-    margin-top: 10rem;
-    margin-left: 20rem;
-    font-size: 64px;
-    font-weight: 900;
-}
-.footer-div .subscribe-btn{
-    padding: 20px;
-    background: #091841;
-    color: #ECF2FA;
-    margin-top: 2rem;
-    border: none;
-    margin-left:20rem;
-    border-radius: 10px;
-    box-shadow:  20px 20px 60px #1a36aa,
-    -20px -20px 60px #234ae6;
-    transition: all 0.2s ease;
-}
-.footer-div .subscribe-btn:hover{
-    opacity: 0.9;
-    transform: translateY(-10px);
-}
 .footer-div .row{
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 10rem;
     margin-right: 10rem;
 }
 .footer-div .row .square1{
     width: 100px;
     height: 100px;
-    background: url('./assets/logo-sq.jpg');
+    background: url('/assets/logo-sq.jpg');
     background-size: cover;
     padding: 20px;
     border-radius: 20px;

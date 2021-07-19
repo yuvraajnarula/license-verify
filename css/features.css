@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ECF2FA !important;
+    color: #091841 !important; 
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+    width: 100% !important;
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+	border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+.solution-app{
+    background: #091841;
+    color: #ECF2FA;
+    height: 100vh;
+    margin-top: 10rem;
+}
+.solution-app h1{
+    margin-left: 35%;
+    font-size: 56px;
+    font-weight: 900;
+}
+.sol-content{
+    margin-top: 5rem;
+}
+.solution-app .sol-btns-list{
+    list-style-type: none;
+    margin-left: 15rem;
+}
+ .solution-app .sol-btns-list .sol-btn{
+    background: transparent;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ECF2FA;
+    transition: all 0.2s ease;
+}
+.solution-app .sol-btns-list .sol-btn:hover{
+    color: #6097E2;
+    transform: translateY(-5px);
+}
+.solution-app .col-sm-6:nth-child(2){
+    display: flex;
+}
+.solution-app .sol-para{
+    transition: all 0.2s ease;
+    animation: sol 0.5s ease;
+    margin-top: 5rem;
+}
+.solution-app .col-sm-6 .sol-para:not(.active-para){
+    display: none;
+}
+@keyframes sol {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
