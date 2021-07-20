@@ -146,7 +146,7 @@ body{
 }
 .feature-app{
     margin-top: 10rem;
-    height: 100vh;
+    padding-bottom: 5rem;
 }
 .feature-app h2{
     font-size: 44px;

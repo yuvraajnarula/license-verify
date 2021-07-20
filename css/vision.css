@@ -222,3 +222,26 @@ body{
 .footer-div .row .label-ul li, .footer-div .row .info-ul li{
     margin-bottom: 20px;
 }
+.protection-div{
+    background-color: #ECF2FA;
+    color: #091841;
+    width: 40%;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #050e27,
+    -20px -20px 60px #0d225b;
+    margin-left: 50rem;
+}
+.protection-div h1{
+    margin-top: -5rem;
+    font-size: 24px;
+    font-weight: 800;
+}
+.protection-div h2{
+    font-weight: 600;
+    font-size: 30px;
+    float: right;
+    margin-top: 2.5rem;
+    margin-right:5rem;
+}

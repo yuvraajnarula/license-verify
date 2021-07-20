@@ -14,3 +14,4 @@ nav_close.addEventListener('click', ()=>{
    overflow.style.width = '0%';
    mobile_nav.style.opacity = 1;
 })
+AOS.init();

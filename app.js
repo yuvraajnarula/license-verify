@@ -1,3 +1,4 @@
+AOS.init();
 
 //image btn preview
 const [img_1, img_2, img_3] = [document.querySelector('#img-1'), document.querySelector('#img-2'), document.querySelector('#img-3')];
