@@ -149,22 +149,20 @@ body{
     height: 100vh;
 }
 .feature-app h2{
-    margin-left:15rem;
-    font-size: 34px;
+    font-size: 44px;
     font-weight: 700;
-}
-.feature-lightbox{
-    margin-top: 10rem;
+    margin-left: 10rem;
     margin-bottom: 10rem;
 }
-.feature-lightbox .row{
-    padding-left: 10rem;
-    padding-right: 10rem;
+.feature-app .row{
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
-.feature-lightbox .row .col-sm-3{
-    background: #ECF2FA; 
-    margin-left: 10rem;
+
+.feature-app .col-sm-6{
+    margin-bottom: 10rem;
 }
+
 .footer-div{
     background-color: #1E40C8;
     color: #ECF2FA;

@@ -121,13 +121,13 @@ body{
 }
 .square-card-1{
     margin-left: 20rem;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     box-shadow:  10px 10px rgba(0,0,0);
 }
 .square-card-1 h2,.square-card-2 h2{
     margin-top: 2.5rem;
-    font-weight: 1000;
-    font-size: 44px;
+    font-weight: 900;
+    font-size: 34px;
     text-align: center;
 }
 .square-card-1 h3,.square-card-2 h3{
