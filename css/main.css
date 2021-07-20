@@ -181,7 +181,7 @@ body{
 
 }
 .team-div{
-    margin-top: 25rem;
+    margin-top: 10rem;
     margin-bottom: 15rem;
 }
 .team-div h1{
@@ -262,6 +262,40 @@ body{
     margin-left: 40rem;
     margin-top: 5rem;
     width: 20vh;
+}
+.feature-div{
+    margin-top: 30rem;
+}
+.feature-div h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-left: 15rem;
+}
+.feature-div p{
+    margin-top: 2.5rem;
+    margin-left: 15rem;
+    border-left: 5px solid #091841;
+    padding-left: 2.5rem;
+}
+.feature-div .row{
+    padding-left: 15rem;
+    padding-right: 10rem;
+    margin-top: 10rem;
+}
+.feature-div .row .col-sm-4{
+    margin-bottom: 5rem;
+}
+.feature-div p{
+    font-weight: 700;
+}
+.feature-div a{
+    text-decoration: none;
+    color: #1E40C8;
+    font-weight: 800;
+    transition: all 0.1s ease;
+}
+.feature-div a:hover{
+    transform: translateX(-5px);
 }
 .footer-div{
     background-color: #1E40C8;
