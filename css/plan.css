@@ -95,7 +95,7 @@ body{
 .plan-div{
     background: #091841;
     color :#ECF2FA;
-    height: 150vh;
+    height: 200vh;
 }
 .plan-div h1{
     padding-top: 5rem;
@@ -127,17 +127,13 @@ body{
 .square-card-1 h2,.square-card-2 h2{
     margin-top: 2.5rem;
     font-weight: 900;
-    font-size: 34px;
+    font-size: 44px;
     text-align: center;
 }
-.square-card-1 h3,.square-card-2 h3{
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-top: 1.5rem;
-}
 .square-card-1 p,.square-card-2 p{
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     font-weight: 600;
+    text-align: center;
 }
 .square-card-2{
     margin-left: 52.5rem;
