@@ -155,14 +155,21 @@ body{
     margin-bottom: 10rem;
 }
 .feature-app .row{
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
-.feature-app .col-sm-6{
+.feature-app .col-sm-5{
     margin-bottom: 10rem;
+    margin-right: 5rem;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #040a1a,
+    -20px -20px 60px #0e2668;
 }
-
+.feature-app .col-sm-5 h1{
+    font-size: 26px;
+}
 .footer-div{
     background-color: #1E40C8;
     color: #ECF2FA;
