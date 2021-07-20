@@ -11,6 +11,28 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="icon" href="./assets/logo.png">
 </head>
+<header>
+    <nav class="navbar">
+        <img src="./assets/logo-sq.jpg" alt="Verifyr Logo" width="50" height="50">
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+    </nav>
+    <div  class="overlay">
+        <a href="javascript:void(0)" class="nav-close-btn">
+            <i class="fa fa-times"></i>
+        </a>
+        <div class="overlay-content">
+          <a href="/index.html">/home</a>
+          <a href="/proj.html">/about</a>
+          <a href="/plan.html"> /buisness</a>
+          <a href="/advantage.html">/advantages</a>
+          <a href="#preview">/preview</a>
+        </div>
+      </div>
+</header>
 <body>
     <div class="feature-div">
         <div class="feature-div">
@@ -42,11 +64,34 @@
                         </p>
                     </div>
                 </div>
-                <div class="lightbox"></div>
                 <div class="feature-app">
-                    <h2>App's Feature</h3>
+                    <h2 id="preview">App's Feature</h3>
                     <div class="feature-lightbox ">
                         <div class="row">
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,6 +135,8 @@
         
     </div>
 </body>
+<script src="/js/tabs.js"></script>
+<script src="/js/nav.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </html>

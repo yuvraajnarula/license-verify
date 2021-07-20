@@ -78,23 +78,22 @@ btn_3.addEventListener('click',()=>{
 })
 
 //mobile-nav
-//const mobile_nav = document.querySelector('.mobile-nav');
-//const nav_ul = document.querySelector('.navbar-ul');
-//const overflow = document.querySelector('.overflow'); 
+const mobile_nav = document.querySelector('.hamburger');
+const overflow = document.querySelector('.overlay'); 
 
-//mobile_nav.addEventListener('click', ()=>{
-  //  overflow.style.transform = 'translateX(0)';
-  //  overflow.style.width = '100%';
-  //  mobile_nav.style.opacity = 0;
-//})
+mobile_nav.addEventListener('click', ()=>{
+    overflow.style.transform = 'translateX(0)';
+    overflow.style.width = '100%';
+    mobile_nav.style.opacity = 0;
+})
 
-//const nav_close = document.querySelector('.overflow-x');
+const nav_close = document.querySelector('.nav-close-btn');
 
-//nav_close.addEventListener('click', ()=>{
- //   overflow.style.transform = 'translateX(-100%)';
- //   overflow.style.width = '0%';
- //   mobile_nav.style.opacity = 1;
-//})
+nav_close.addEventListener('click', ()=>{
+   overflow.style.transform = 'translateX(-100%)';
+   overflow.style.width = '0%';
+   mobile_nav.style.opacity = 1;
+})
 
 // subscribe modal
 const [subscribe, subscribe_btn, subscribe_close ] = [document.querySelector('.subscribe-modal'),document.querySelector('.header-btn'),document.querySelector('.subs-close')];
@@ -128,4 +127,4 @@ function  email_send(name, email){
       }
     }
   );
-}
+  }
